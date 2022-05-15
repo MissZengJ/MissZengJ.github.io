@@ -365,18 +365,33 @@
     </div>
 </div>
 
-<!-- 引用 artitalk -->
-<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-<!-- 存放说说的容器 -->
-<div id="artitalk_main"></div>
-<script>
-new Artitalk({
-    erverURL: 'www.liyunxu.work',
-    appId: 'TlcjJxlA42zXpmWVpVuLOSzf-MdYXbMMI', // Your LeanCloud appId
-    appKey: 'qowKtq39ClDaUYHnJKV3fzf0', // Your LeanCloud appKey
-    avatarPla: 'https://z3.ax1x.com/2021/04/20/c7sE0U.jpg',
-})
-</script>
+<main class="content">
+  <div class="container friends-container">
+      <div class="card">
+          <div class="card-content">
+              <!-- artitalk -->
+              <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+              <script>
+                var img = "https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/custom/cungudafa.jpg"; //说说旁边显示的头像
+                var appID = "bmQvd11dIkzrh0yQlBtyYdYA-gzGzoHsz";
+                var appKEY = "t96wMy4f8jluEyOtwO4C9S3k";
+                var per = "7"; //每页显示说说的数量
+                var username = "cungudafa"; //Leancloud中设置的用户名
+                var placeholder1="只有cungudafa才能评论哦";
+                var placeholder2="没有密码，不能评论！";
+                var lazy = 1;
+                var bgimg = "https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif";
+              </script>
+              <div id="lazy"></div>
+              <div id="artitalk"></div>
+              <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+              <!-- artitalk.end -->
+          </div>
+      </div>
+  </div>
+</main>
+
+
 
     <footer class="page-footer bg-color">
     
@@ -686,6 +701,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body>
+</body>
 
 </html>
