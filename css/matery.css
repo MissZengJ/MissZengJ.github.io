@@ -241,8 +241,7 @@ mark {
 }
 
 .bg-color {
-    /* background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
-	background-image: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Fdfd7fe154c5da2327356962343ff630de51d2090.png&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1655184586&t=46d909c94ef2a8c171b4728de7bc3e4c
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
 }
 
 .text-color {
