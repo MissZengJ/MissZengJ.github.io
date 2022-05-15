@@ -498,33 +498,15 @@
   <div class="container friends-container">
       <div class="card">
           <div class="card-content">
-              <div id="lazy"></div>
-              <div id="artitalk"></div>
-              <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-              <!-- artitalk.end -->
-			                <!-- 自定义样式 -->
-              <style>
-                .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
-                  background: #333030;
-                  color: #e3dede
-                }
-                .cbp_tmtimeline>li .cbp_tmlabel {
-                  background: #333030;
-                  color: #e3dede
-                }
-                .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
-                  border-right-color:  #333030
-                }
-                .cbp_tmtimeline>li .cbp_tmlabel:after {
-                  border-right-color:  #333030
-                }
-                .button {
-                  background: #333030;
-                  color: #e3dede
-                }
-              </style>
-
-              <!-- 自定义样式.end -->
+			<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+				<!-- 存放说说的容器 -->
+			<div id="artitalk_main"></div>
+			<script>
+				new Artitalk({
+				appId: '817C1U3FQmMjDVtg54LLY7HJ-MdYXbMMI', // Your LeanCloud appId
+				appKey: 'L7jp4A7TGG6hJPkCSIASpcOL' // Your LeanCloud appKey
+				})
+			</script>
 				
           </div>
       </div>
